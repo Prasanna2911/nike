@@ -3,7 +3,7 @@ import { hamburger } from "../assets/icons";
 import { navLinks } from "../constants";
 const Nav = () => {
   return (
-    <header className="absolute padding-x py-8 z-10 w-full border border-red-600">
+    <header className="absolute padding-x py-8 z-10 w-full">
       <nav className="flex justify-between items-center max-container">
         <a href="/">
           <img src={headerLogo} alt="Logo" width={130} height={29} />
